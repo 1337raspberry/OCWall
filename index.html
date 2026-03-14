@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OC Wall Archive</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>OC Wall <span class="accent">Archive</span></h1>
+    </header>
+
+    <!-- Menu Screen -->
+    <div id="menu-screen" class="screen active">
+      <div class="menu-card">
+        <h2>Choose a Wall</h2>
+        <div id="episode-list"></div>
+        <button id="random-btn" class="btn btn-accent">Random Wall</button>
+      </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen">
+      <div class="game-header">
+        <div class="game-info">
+          <span id="episode-title"></span>
+          <span id="wall-name" class="wall-badge"></span>
+        </div>
+      </div>
+
+      <div id="wall" class="wall"></div>
+
+      <div class="wall-footer">
+        <div id="guess-pips" class="guess-pips"></div>
+        <div class="timer-bar-track">
+          <div id="timer-bar" class="timer-bar-fill"></div>
+        </div>
+        <div id="timer-text" class="timer-text">2:30</div>
+      </div>
+
+      <div id="toast" class="toast"></div>
+      <div id="message" class="message"></div>
+    </div>
+
+    <!-- Results Screen -->
+    <div id="results-screen" class="screen">
+      <h2 id="results-title"></h2>
+      <div id="results-groups"></div>
+      <div class="results-actions">
+        <button id="play-again-btn" class="btn">Play Again</button>
+        <button id="back-menu-btn" class="btn btn-accent">Back to Menu</button>
+      </div>
+    </div>
+    <footer class="disclaimer">
+      This is an unofficial fan site and interactive archive of past connecting wall puzzles from the TV show. All original content belongs to its respective rights holders. No copyright infringement is intended. Question data sourced from <a href="https://ocdb.cc" target="_blank">ocdb.cc</a>. All progress data is stored locally in your browser and is never transmitted or collected.
+    </footer>
+  </div>
+
+  <script src="js/game.js"></script>
+</body>
+</html>
