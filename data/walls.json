@@ -44,6 +44,47 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Lion",
+        "groups": [
+          {
+            "connection": "Aircraft emergencies",
+            "clues": [
+              "Spin",
+              "Stall",
+              "Bird strike",
+              "Flameout"
+            ]
+          },
+          {
+            "connection": "Plants used as hedging",
+            "clues": [
+              "Yew",
+              "Privet",
+              "Hawthorn",
+              "Box"
+            ]
+          },
+          {
+            "connection": "Seating areas in a theatre",
+            "clues": [
+              "Loge",
+              "Circle",
+              "Gods",
+              "Mezzanine"
+            ]
+          },
+          {
+            "connection": "Types of brassiere",
+            "clues": [
+              "T-shirt",
+              "Plunge",
+              "Balcony",
+              "Nursing"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -20035,6 +20076,47 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Water",
+        "groups": [
+          {
+            "connection": "Songs called Mr ___",
+            "clues": [
+              "Vain",
+              "Blue Sky",
+              "Writer",
+              "Brightside"
+            ]
+          },
+          {
+            "connection": "-k/-que variation",
+            "clues": [
+              "Mark",
+              "Mask",
+              "Rok",
+              "Bask"
+            ]
+          },
+          {
+            "connection": "Comic book villains",
+            "clues": [
+              "Bane",
+              "Zoom",
+              "Kingpin",
+              "Sandman"
+            ]
+          },
+          {
+            "connection": "Hit the __",
+            "clues": [
+              "Road",
+              "Hay",
+              "Deck",
+              "Bullseye"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -26666,6 +26748,47 @@
               "Bellini",
               "Combi",
               "Lloris"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lion",
+        "groups": [
+          {
+            "connection": "Fictional martial arts",
+            "clues": [
+              "Mok'bara",
+              "Hip Hop Kido",
+              "Ecky-Thump",
+              "Rex Kwon Do"
+            ]
+          },
+          {
+            "connection": "Vodka cocktails",
+            "clues": [
+              "Kamikaze",
+              "Caipiroska",
+              "Vesper",
+              "Cosmopolitan"
+            ]
+          },
+          {
+            "connection": "The ___ Kid movies",
+            "clues": [
+              "Flamingo",
+              "Lemon Drop",
+              "Karate",
+              "Cincinnati"
+            ]
+          },
+          {
+            "connection": "Fashion magazines",
+            "clues": [
+              "Lucky",
+              "Nylon",
+              "Allure",
+              "Glamour"
             ]
           }
         ]
@@ -34816,6 +34939,47 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Lion",
+        "groups": [
+          {
+            "connection": "Masters of Ceremonies",
+            "clues": [
+              "Anchor",
+              "Presenter",
+              "Emcee",
+              "Moderator"
+            ]
+          },
+          {
+            "connection": "Constellations",
+            "clues": [
+              "Orion",
+              "Lynx",
+              "Leo",
+              "Draco"
+            ]
+          },
+          {
+            "connection": "Opposites of Best Picture winners",
+            "clues": [
+              "Host",
+              "The Godmother Part II",
+              "Sunlight",
+              "The Queen's Speech"
+            ]
+          },
+          {
+            "connection": "Rock climbing terminology",
+            "clues": [
+              "Crux",
+              "Belay",
+              "Crimp",
+              "Crag"
+            ]
+          }
+        ]
       }
     ]
   },
@@ -36908,6 +37072,47 @@
               "Bookshelf",
               "Yacht",
               "Bouvier"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Lion",
+        "groups": [
+          {
+            "connection": "Fictional substances",
+            "clues": [
+              "Kryptonite",
+              "Mithril",
+              "Octogen",
+              "Adamant"
+            ]
+          },
+          {
+            "connection": "Adamant",
+            "clues": [
+              "Firm",
+              "Resolute",
+              "Obdurate",
+              "Fixed"
+            ]
+          },
+          {
+            "connection": "Begin with a Spanish number",
+            "clues": [
+              "Unobtanium",
+              "Dosage",
+              "Trespass",
+              "Seismic"
+            ]
+          },
+          {
+            "connection": "Types of asset",
+            "clues": [
+              "Current",
+              "Capital",
+              "Tangible",
+              "Liquid"
             ]
           }
         ]
