@@ -5,6 +5,7 @@
   const TOTAL_TIME = 150; // 2:30 in seconds
   const MAX_GUESSES_AFTER_TWO = 3;
   const STORAGE_KEY = "oc_wall_history";
+  const DATA_VERSION = 2; // bump this to bust browser cache after data changes
 
   let wallData = [];
   let currentWall = null;
@@ -51,7 +52,7 @@
   // --- Data Loading ---
 
   async function loadData() {
-    const resp = await fetch("data/walls.json");
+    const resp = await fetch("data/walls.json?v=" + DATA_VERSION);
     wallData = await resp.json();
     buildMenu();
   }
