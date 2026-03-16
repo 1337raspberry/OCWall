@@ -17,7 +17,31 @@
       <div class="menu-card">
         <h2>Choose a Wall</h2>
         <div id="episode-list"></div>
-        <button id="random-btn" class="btn btn-accent">Random Wall</button>
+        <div class="menu-buttons">
+          <button id="random-btn" class="btn btn-accent">Random Wall</button>
+          <button id="stats-btn" class="btn">Stats</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stats Screen -->
+    <div id="stats-screen" class="screen">
+      <div class="menu-card">
+        <h2>Stats</h2>
+        <div id="stats-content"></div>
+        <div class="stats-footer">
+          <button id="stats-back-btn" class="btn btn-accent">Back to Menu</button>
+          <button id="stats-reset-btn" class="btn btn-danger">Reset All Stats</button>
+        </div>
+      </div>
+      <div id="reset-confirm" class="reset-overlay" style="display:none">
+        <div class="reset-dialog">
+          <p>Are you sure? This will permanently delete all your progress.</p>
+          <div class="reset-dialog-actions">
+            <button id="reset-yes-btn" class="btn btn-danger">Yes, reset everything</button>
+            <button id="reset-no-btn" class="btn">Cancel</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -28,6 +52,7 @@
           <span id="episode-title"></span>
           <span id="wall-name" class="wall-badge"></span>
         </div>
+        <button id="quit-btn" class="btn quit-btn">Quit</button>
       </div>
 
       <div id="wall" class="wall"></div>
